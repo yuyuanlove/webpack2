@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node --inspect-brk ./node_modules/webpack/bin/webpack.js"
+  },
   "devDependencies": {
     "globby": "^11.0.3",
     "schema-utils": "^3.0.0",
