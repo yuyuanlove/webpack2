@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node --inspect-brk ./node_modules/webpack/bin/webpack.js"
+  },
   "devDependencies": {
     "tapable": "^2.2.0",
     "webpack": "^5.26.3",
