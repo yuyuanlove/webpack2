@@ -36,7 +36,7 @@ class CopyWebpackPlugin{
                 // console.log(paths)
 
                 
-                //2.读取from中的所以资源，fs
+                //2.读取from中的所有资源，fs
                 const files = await Promise.all(
                     paths.map(async item => {
                         const data = await readFile(item)
